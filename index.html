@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="陳德恩 Andy Chen 個人作品集｜PHP Web MIS、IT Infrastructure、Cybersecurity、AIoT 與管理分析" />
+  <title>陳德恩 Andy Chen｜IT Infra / Security / PHP Web MIS Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar">
+      <a class="brand" href="#top" aria-label="回到首頁"><span class="brand-mark">AC</span><span>Andy Chen</span></a>
+      <button class="nav-toggle" type="button" aria-label="開啟選單" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">定位</a>
+        <a href="#stack">技術堆疊</a>
+        <a href="#projects">專案</a>
+        <a href="#business">管理分析</a>
+        <a href="#timeline">學歷經歷</a>
+        <a href="#certs">證照</a>
+        <a class="nav-cta" href="#contact">聯絡</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-content reveal">
+        <p class="eyebrow">PHP Web MIS × MySQL × Cybersecurity × AIoT</p>
+        <h1>陳德恩</h1>
+        <h2>Andy Chen</h2>
+        <h3>聚焦資訊系統開發、系統分析設計、資訊安全治理、IT 基礎建設、電子商務與科技管理。</h3>
+        <div class="hero-points">
+          <span>蝦皮電商營收 15 萬以上</span>
+          <span>曾擔任40人團隊領導者</span>
+          <span>多次擔任產品與專案負責人</span>
+          <span>持有政府認可資訊安全專業證照與 ISO 資安治理資格</span>
+        </div>
+        <p class="hero-text">
+          我從資訊工程與資訊管理訓練出發，並結合企業 E 化、電商治理、資安管理與 AIoT 應用。
+          作品方向聚焦於「把資料接進系統、讓系統可以被維運，再用視覺化與 AI 產生決策價值」。
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">查看 24 個專案</a>
+          <a class="btn secondary" href="#timeline">查看學歷經歷</a>
+        </div>
+        <div class="metrics" aria-label="重點成果">
+          <div><strong>Top 3%</strong><span>國立台中科技大學資訊工程</span></div>
+          <div><strong>正取 1</strong><span>國立雲林科技大學資管系</span></div>
+          <div><strong>PHP</strong><span>主要 Web MIS 技術</span></div>
+          <div><strong>24</strong><span>專案作品整理</span></div>
+        </div>
+      </div>
+      <aside class="hero-card reveal">
+        <div class="photo-frame"><img src="assets/profile.jpg" alt="陳德恩形象照" /></div>
+        <div class="profile-card">
+          <h3>Career Target 職涯目標</h3>
+          <p>System Administrator / Network & Security Engineer</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section-shell" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Positioning</p>
+        <h2>個人定位</h2>
+        <p>我的專業核心在於完整的系統整合實踐：從基礎建設、資料庫設計、PHP Web 系統，到資安治理、AIoT 與商業應用，將技術落地成可維運、可分析、可管理的資訊系統。</p>
+      </div>
+      <div class="value-grid">
+        <article class="value-card reveal"><span>01</span><h3>IT Infra 與跨平台部署</h3><p>接觸 Windows Server、Linux、Windows 11、macOS Unix-like、WSL、VMware、Parallels 與 VMware Fusion，能建立多系統測試與部署情境。</p></article>
+        <article class="value-card reveal"><span>02</span><h3>PHP Web 與資料庫設計</h3><p>以 PHP + MySQL 為主要 Web MIS 技術，可完成 CRUD、登入、後台管理、成績計算、報表視覺化與資料流程設計。</p></article>
+        <article class="value-card reveal"><span>03</span><h3>資安技術與治理思維</h3><p>具備 Cisco、ITS、ISO 27001:2022 Lead Auditor 背景，能從網路安全、系統權限、風險控管與合規角度理解資訊系統。</p></article>
+        <article class="value-card reveal"><span>04</span><h3>Business / Management</h3><p>具備電商營運、科技法律合規、個資保護管理、Yamaha 經營策略、UX 與數據分析經驗，能把 IT 技術放進商業流程思考。</p></article>
+        <article class="value-card reveal"><span>05</span><h3>Science Literacy</h3><p>具備高中數理實驗班與資訊工程背景，能整合自然科學、智慧醫療、藥倉管理、感測監控與資訊科技問題。</p></article>
+        <article class="value-card reveal"><span>06</span><h3>Social Media Management</h3><p>善用社群媒體、人工智慧平台與內容設計提升團隊曝光，曾短期推動社群成長。</p></article>
+        <article class="value-card reveal"><span>07</span><h3>AI Application</h3><p>善用生成式 AI、LINE Bot、影像辨識與物聯網技術解決場域專案問題。</p></article>
+        <article class="value-card reveal"><span>08</span><h3>Electronics</h3><p>具備資電實習與電路基礎，能理解感測器、控制流程與 AIoT 系統底層資料來源。</p></article>
+      </div>
+    </section>
+
+    <section class="section-shell" id="stack">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Technical Stack</p>
+        <h2>技術堆疊</h2>
+        <p>系統分析與設計 → PHP Web 開發 → MySQL 資料庫 → 基礎建設 → 資安治理 → AIoT 與生成式 AI 應用。</p>
+      </div>
+      <div class="stack-grid">
+        <article class="stack-card reveal"><h3>OS Platforms 作業系統與平台</h3><ul><li>Windows Server：IIS、AD、DNS、DHCP、Hyper-V 概念與實作</li><li>Linux：Ubuntu / Rocky Linux、Shell、SSH、服務與權限管理</li><li>Windows 11：本機開發、測試、XAMPP 環境</li><li>macOS：Unix-like Terminal、Homebrew、開發環境配置</li></ul></article>
+        <article class="stack-card reveal"><h3>Virtualization 虛擬化與雲端</h3><ul><li>VMware Workstation / VMware Fusion：多系統測試環境</li><li>Parallels Desktop：macOS 上 Windows / Linux 虛擬化</li><li>VirtualBox / Hyper-V：IT Lab 與系統部署練習</li><li>WSL：Windows 上 Linux 指令、開發與服務測試</li></ul></article>
+        <article class="stack-card reveal"><h3>Web & Database</h3><ul><li>PHP + MySQL：CRUD、登入、題庫、成績、資料查詢</li><li>HTML / CSS / JavaScript：RWD、互動效果、前端頁面</li><li>Chart.js：成績、財務、數據分析視覺化</li><li>MS SQL / MySQL / PostgreSQL：ERD、資料表設計與查詢</li></ul></article>
+        <article class="stack-card reveal"><h3>Security & Network</h3><ul><li>Cisco Networking：基礎交換、路由與網路概念</li><li>Wireshark / Nmap：封包觀察與基礎掃描</li><li>ISO 27001：ISMS、風險評估、控制項與稽核思維</li><li>Network Security：網路安全基礎與防護概念</li></ul></article>
+        <article class="stack-card reveal"><h3>AI / Data / IoT</h3><ul><li>Python：OpenCV、Pandas、資料處理與影像辨識</li><li>Arduino / ESP32 / Raspberry Pi Pico：感測與環境監控</li><li>Gemini / Groq API：生成式 AI 問答、風險判讀與建議生成</li><li>LINE Bot：Webhook 串接與使用者互動流程</li></ul></article>
+        <article class="stack-card reveal"><h3>UI/UX & Management</h3><ul><li>User Flow、Wireframe、RWD、高齡友善 UI</li><li>系統分析與設計、ERD、DFD、流程規劃</li><li>ERP / CRM / MIS / ITSM</li><li>SWOT、ESG、數位轉型與科技法律分析</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section-shell" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Project Portfolio</p>
+        <h2>專案作品</h2>
+        <p></p>
+      </div>
+      <div class="project-grid">
+
+        <article class="project-card" data-cat="AIoT / GenAI / Web MIS">
+          <div class="project-head">
+            <div class="project-icon">🌿</div>
+            <div class="project-no">01</div>
+          </div>
+          <div class="project-tags">
+            <span>AIoT / GenAI / Web MIS</span>
+            <span>國立雲林科技大學 三實競賽｜組長｜入圍決賽</span>
+          </div>
+          <h3>物感靈草</h3>
+          <p class="en">Smart Herbal Warehouse</p>
+          <p>基於物聯網與生成式人工智慧技術建構中藥管理智慧倉儲，整合溫濕度監測、資料儲存、Web Dashboard 與 AI 輔助決策。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>Arduino</span><span>DHT11</span><span>Groq API</span><span>RWD</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="EdTech / Web MIS">
+          <div class="project-head">
+            <div class="project-icon">💻</div>
+            <div class="project-no">02</div>
+          </div>
+          <div class="project-tags">
+            <span>EdTech / Web MIS</span>
+            <span>國立台中科技大學 資訊流通學院專題成果展｜副組長｜大學部第二名</span>
+          </div>
+          <h3>QuizMaster</h3>
+          <p class="en">Programming Literacy Platform</p>
+          <p>以數位轉型改善偏鄉程式設計素養，建立題庫管理、線上測驗、自動評分與學習成果分析流程。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Chart.js</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="Healthcare / AIoT">
+          <div class="project-head">
+            <div class="project-icon">❤️</div>
+            <div class="project-no">03</div>
+          </div>
+          <div class="project-tags">
+            <span>Healthcare / AIoT</span>
+            <span>國立溪湖高中 小論文專題競賽｜入圍提案</span>
+          </div>
+          <h3>CareLink AI</h3>
+          <p class="en">Smart Home Health Monitoring</p>
+          <p>AIoT 智慧居家健康監測與遠距照護平台，聚焦健康數據監測、照護通知與偏鄉醫療情境。</p>
+          <div class="tech-tags"><span>AIoT</span><span>Sensor Data</span><span>Dashboard</span><span>Healthcare</span><span>Notification</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="AI / Security / Web MIS">
+          <div class="project-head">
+            <div class="project-icon">🚓</div>
+            <div class="project-no">04</div>
+          </div>
+          <div class="project-tags">
+            <span>AI / Security / Web MIS</span>
+            <span>國立雲林科技大學 資訊管理系畢業專題展｜組長</span>
+          </div>
+          <h3>M-Police</h3>
+          <p class="en">AI Stolen Vehicle Tracking System</p>
+          <p>基於深度學習之贓車追查系統，將車牌辨識、車輛資料查詢與警政管理流程整合成新一代資訊系統。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>Python</span><span>OpenCV</span><span>YOLO</span><span>OCR</span><span>Linux</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="Finance / Web MIS">
+          <div class="project-head">
+            <div class="project-icon">💰</div>
+            <div class="project-no">05</div>
+          </div>
+          <div class="project-tags">
+            <span>Finance / Web MIS</span>
+            <span>個人化理財管理資訊系統｜Web 系統</span>
+          </div>
+          <h3>Let’s Ledger</h3>
+          <p class="en">Personal Finance Web MIS</p>
+          <p>以個人記帳與財務分析為主題，規劃收入、支出、分類、查詢、預算與視覺化圖表分析流程。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>Chart.js</span><span>Bootstrap</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="GenAI / Anti-Fraud">
+          <div class="project-head">
+            <div class="project-icon">🛡️</div>
+            <div class="project-no">06</div>
+          </div>
+          <div class="project-tags">
+            <span>GenAI / Anti-Fraud</span>
+            <span>2025 經濟部智慧創新應用大賞｜提案</span>
+          </div>
+          <h3>職安盾</h3>
+          <p class="en">AI Job Fraud Detection LINE Bot</p>
+          <p>求職防詐 LineBOT 語意機器人，透過生成式 AI 分析職缺文字、薪資條件、聯絡方式與可疑話術。</p>
+          <div class="tech-tags"><span>LINE Bot</span><span>PHP</span><span>Webhook</span><span>Gemini API</span><span>MySQL</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="Healthcare / GenAI">
+          <div class="project-head">
+            <div class="project-icon">💊</div>
+            <div class="project-no">07</div>
+          </div>
+          <div class="project-tags">
+            <span>Healthcare / GenAI</span>
+            <span>2026 經濟部智慧創新應用大賞｜組長｜實作成功</span>
+          </div>
+          <h3>藥你更健康</h3>
+          <p class="en">Medication Interaction LINE Bot</p>
+          <p>Line 聊天機器人醫藥禁忌查詢系統，結合藥物交互作用資料庫、生成式 AI 與後台維護功能。</p>
+          <div class="tech-tags"><span>LINE Bot</span><span>PHP</span><span>MySQL</span><span>GenAI API</span><span>Admin Panel</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="Enterprise / Web MIS">
+          <div class="project-head">
+            <div class="project-icon">👥</div>
+            <div class="project-no">08</div>
+          </div>
+          <div class="project-tags">
+            <span>Enterprise / Web MIS</span>
+            <span>智慧化人力資源系統</span>
+          </div>
+          <h3>SmartHRM</h3>
+          <p class="en">Smart Human Resource MIS</p>
+          <p>整合員工資料、出勤打卡、請假申請、審核、權限控管與統計報表的人力資源管理系統。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>JavaScript</span><span>Chart.js</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="ESG / Platform">
+          <div class="project-head">
+            <div class="project-icon">🌱</div>
+            <div class="project-no">09</div>
+          </div>
+          <div class="project-tags">
+            <span>ESG / Platform</span>
+            <span>六都城市創新大賞｜組長</span>
+          </div>
+          <h3>享食綠洲</h3>
+          <p class="en">Green Oasis ESG Reward Platform</p>
+          <p>推動集點制度融入 ESG 治理創新政策，設計低碳行為登錄、紅利積分、排行榜與後台審核流程。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>QR Code</span><span>JavaScript</span><span>ESG Dashboard</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="UI/UX / FinTech">
+          <div class="project-head">
+            <div class="project-icon">🧭</div>
+            <div class="project-no">10</div>
+          </div>
+          <div class="project-tags">
+            <span>UI/UX / FinTech</span>
+            <span>PxPay 易用性調查與 UI/UX 設計</span>
+          </div>
+          <h3>PxPay</h3>
+          <p class="en">Usability Research &amp; UI/UX Design</p>
+          <p>以任務導向測試、觀察評估、主觀評估與績效評估分析使用者操作痛點並提出介面優化建議。</p>
+          <div class="tech-tags"><span>UX Research</span><span>Task Flow</span><span>SUS</span><span>Wireframe</span><span>Prototype</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="AIoT / Pharmacy">
+          <div class="project-head">
+            <div class="project-icon">🏥</div>
+            <div class="project-no">11</div>
+          </div>
+          <div class="project-tags">
+            <span>AIoT / Pharmacy</span>
+            <span>慈濟大學經營管理專題競賽｜組長</span>
+          </div>
+          <h3>一定藥更好</h3>
+          <p class="en">AIoT Smart Pharmacy Warehouse</p>
+          <p>基於人工智慧與物聯網之智慧藥倉，聚焦藥品保存、環境監控、庫存管理與異常提醒。</p>
+          <div class="tech-tags"><span>AIoT</span><span>PHP</span><span>MySQL</span><span>Sensor</span><span>Dashboard</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="Telecom / AIoT">
+          <div class="project-head">
+            <div class="project-icon">☁️</div>
+            <div class="project-no">12</div>
+          </div>
+          <div class="project-tags">
+            <span>Telecom / AIoT</span>
+            <span>創新應用提案</span>
+          </div>
+          <h3>中華電信創新應用大賞</h3>
+          <p class="en">Telecom Innovation Application</p>
+          <p>以智慧中藥倉儲與 AIoT 資料平台概念延伸，規劃雲端、IoT 與資料服務整合應用。</p>
+          <div class="tech-tags"><span>Cloud Platform</span><span>IoT</span><span>PHP</span><span>MySQL</span><span>Dashboard</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="IoT / Agriculture">
+          <div class="project-head">
+            <div class="project-icon">💧</div>
+            <div class="project-no">13</div>
+          </div>
+          <div class="project-tags">
+            <span>IoT / Agriculture</span>
+            <span>日本人合作｜IoT 專案</span>
+          </div>
+          <h3>智慧灌溉監控系統</h3>
+          <p class="en">Smart Irrigation Monitoring System</p>
+          <p>基於物聯網架構建構智慧灌溉監控系統，支援土壤濕度、環境監測與灌溉控制。</p>
+          <div class="tech-tags"><span>IoT Sensor</span><span>Arduino / ESP32</span><span>PHP</span><span>MySQL</span><span>Dashboard</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="Security / GenAI">
+          <div class="project-head">
+            <div class="project-icon">🔐</div>
+            <div class="project-no">14</div>
+          </div>
+          <div class="project-tags">
+            <span>Security / GenAI</span>
+            <span>專案開發成功</span>
+          </div>
+          <h3>生成式 AI 資安意識教育訓練系統</h3>
+          <p class="en">GenAI Security Awareness Training</p>
+          <p>以情境式社交工程演練、互動問答、訓練紀錄、風險回饋與後台管理支援資安教育訓練。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>GenAI API</span><span>Dashboard</span><span>Security Training</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="Marketing / Web">
+          <div class="project-head">
+            <div class="project-icon">📣</div>
+            <div class="project-no">15</div>
+          </div>
+          <div class="project-tags">
+            <span>Marketing / Web</span>
+            <span>計劃執行</span>
+          </div>
+          <h3>PTECH 行銷與報導電子化 DM</h3>
+          <p class="en">PTECH Digital Marketing Website</p>
+          <p>以教育推廣、報導內容與電子化 DM 為核心，訓練靜態網站、內容結構與行銷資訊整理。</p>
+          <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span><span>Content Design</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="Content / Web">
+          <div class="project-head">
+            <div class="project-icon">🎬</div>
+            <div class="project-no">16</div>
+          </div>
+          <div class="project-tags">
+            <span>Content / Web</span>
+            <span>內容型網站專案</span>
+          </div>
+          <h3>電影部落格賞析專案</h3>
+          <p class="en">Movie Review Blog Website</p>
+          <p>以電影賞析、文章分類與閱讀體驗為核心，展示前端排版、內容架構與靜態網站部署能力。</p>
+          <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>RWD</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="Academic / Web MIS">
+          <div class="project-head">
+            <div class="project-icon">📊</div>
+            <div class="project-no">17</div>
+          </div>
+          <div class="project-tags">
+            <span>Academic / Web MIS</span>
+            <span>成績管理資訊系統</span>
+          </div>
+          <h3>GradeMIS</h3>
+          <p class="en">Grade Management Information System</p>
+          <p>以課程、學生、成績與統計分析為核心，支援成績登錄、查詢、資料維護與圖表視覺化。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>JavaScript</span><span>Chart.js</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="Campus / Web MIS">
+          <div class="project-head">
+            <div class="project-icon">📅</div>
+            <div class="project-no">18</div>
+          </div>
+          <div class="project-tags">
+            <span>Campus / Web MIS</span>
+            <span>校園活動報名資訊系統</span>
+          </div>
+          <h3>Campus Event MIS</h3>
+          <p class="en">Campus Event Registration System</p>
+          <p>將校園活動發布、線上報名、名單管理與後台審核流程轉化為可管理的資訊系統。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>RWD</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="ITSM / Web MIS">
+          <div class="project-head">
+            <div class="project-icon">🛠️</div>
+            <div class="project-no">19</div>
+          </div>
+          <div class="project-tags">
+            <span>ITSM / Web MIS</span>
+            <span>支援 ITSM 框架</span>
+          </div>
+          <h3>IT Support</h3>
+          <p class="en">IT Support Management System</p>
+          <p>支援報修、派工、狀態追蹤、處理紀錄、知識管理與統計分析流程。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>JavaScript</span><span>ITSM</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="ISMS / Healthcare">
+          <div class="project-head">
+            <div class="project-icon">🏨</div>
+            <div class="project-no">20</div>
+          </div>
+          <div class="project-tags">
+            <span>ISMS / Healthcare</span>
+            <span>資訊安全管理系統適配性分析與治理策略研究｜組長</span>
+          </div>
+          <h3>醫療院所導入 ISO/IEC 27001 ISMS</h3>
+          <p class="en">Healthcare ISMS Governance Research</p>
+          <p>從醫療資訊基礎建設、SWOT、PDCA、矩陣治理、人員心理與法規倫理分析 ISMS 導入。</p>
+          <div class="tech-tags"><span>ISO 27001</span><span>PDCA</span><span>SWOT</span><span>Risk Management</span><span>Healthcare IT</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="ESG / Web MIS">
+          <div class="project-head">
+            <div class="project-icon">🌍</div>
+            <div class="project-no">21</div>
+          </div>
+          <div class="project-tags">
+            <span>ESG / Web MIS</span>
+            <span>碳排放與能源管理資訊系統</span>
+          </div>
+          <h3>Smart ESG</h3>
+          <p class="en">Carbon &amp; Energy Management System</p>
+          <p>支援碳排放盤查、能源用量追蹤、排放係數管理與 ESG 報表分析。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>JavaScript</span><span>Chart.js</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="Accounting / Web MIS">
+          <div class="project-head">
+            <div class="project-icon">🧾</div>
+            <div class="project-no">22</div>
+          </div>
+          <div class="project-tags">
+            <span>Accounting / Web MIS</span>
+            <span>智慧型記帳系統</span>
+          </div>
+          <h3>Smart Accounting</h3>
+          <p class="en">Smart Accounting Information System</p>
+          <p>以中小型組織記帳與財務管理為情境，規劃收支、分類、預算、報表與儀表板分析。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>JavaScript</span><span>Chart.js</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="ESG / Public Welfare">
+          <div class="project-head">
+            <div class="project-icon">🍱</div>
+            <div class="project-no">23</div>
+          </div>
+          <div class="project-tags">
+            <span>ESG / Public Welfare</span>
+            <span>剩食公益平台</span>
+          </div>
+          <h3>FoodCycle</h3>
+          <p class="en">Food Surplus Charity Platform</p>
+          <p>串聯捐贈者、公益單位與平台管理流程，降低食物浪費並提升資源再分配效率。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>JavaScript</span><span>RWD</span></div>
+        </article>
+
+
+        <article class="project-card" data-cat="LegalTech / GenAI">
+          <div class="project-head">
+            <div class="project-icon">⚖️</div>
+            <div class="project-no">24</div>
+          </div>
+          <div class="project-tags">
+            <span>LegalTech / GenAI</span>
+            <span>法律扶助法律生活 AI 平台</span>
+          </div>
+          <h3>Lawmate</h3>
+          <p class="en">Legal Aid AI Life Platform</p>
+          <p>以生活法律查詢、法律扶助資訊整理與 AI 問答為核心，降低一般使用者理解法律資訊的門檻。</p>
+          <div class="tech-tags"><span>PHP</span><span>MySQL</span><span>GenAI API</span><span>Bootstrap</span><span>JavaScript</span></div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section-shell" id="business">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Business & Management</p>
+        <h2>管理分析與商業實戰</h2>
+      </div>
+      <div class="business-grid">
+        <article class="business-card reveal"><h3>蝦皮電商 Andy優選｜平台負責人</h3><p>負責商品上架、訂單處理、客服流程、商品定位、定價與曝光策略，具備實際營運與平台管理經驗。</p><ul><li>Product / Order / Customer 流程管理</li><li>SEO、CRM、曝光與轉換率觀察</li><li>營收超過 15 萬，補足商業場景理解</li></ul></article>
+        <article class="business-card reveal"><h3>Yamaha 經營策略與數位轉型分析</h3><p>從資訊系統與企業策略角度分析營運流程、品牌定位、通路與數位轉型推動可能性。</p><ul><li>ERP / CRM / 電商平台對營運效率的影響</li><li>資料驅動決策與管理資訊系統觀點</li><li>競爭策略、品牌價值與市場定位分析</li></ul></article>
+        <article class="business-card reveal"><h3>科技法律與個人資料保護分析</h3><p>結合個資法、資料治理與 ISO 27001 思維，分析資訊系統在資料蒐集、保存、存取與外洩風險上的控管。</p><ul><li>個資法與資訊安全治理</li><li>資料外洩風險與處理流程</li><li>ISMS / Compliance / Risk Thinking</li></ul></article>
+        <article class="business-card reveal"><h3>UX / Data Analysis / LINE Bot 應用</h3><p>透過使用者體驗、數據分析與生成式 AI 應用場景，設計可被實際使用者理解與操作的數位服務。</p><ul><li>Ewant 使用者經驗設計、人工智慧概論、數據分析</li><li>求職防詐 LINE Bot</li><li>用藥禁忌查詢 LINE Bot</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section-shell" id="timeline">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Education & Experience</p>
+        <h2>學歷與經歷統整</h2>
+      </div>
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <span class="time">高中</span>
+          <div>
+            <h3>國立溪湖高中｜數理實驗班</h3>
+            <p>建立自然科學、數理與資訊應用基礎，並透過自主學習與社團經營累積跨域專題能力。</p>
+            <ul>
+              <li>小論文與自主學習：CareLink AI 智慧居家健康監測與遠距照護、Arduino 自動控制、中藥學理與產業政策分析。</li>
+              <li>擔任科學研習社社長，推動社團分工、IG 社群經營、科學課程設計與活動規劃。</li>
+              <li>代表彰化二區參與自主學習成果發表，主題聚焦微處理機與自動控制。</li>
+              <li>參與國立彰化高中資訊志工隊訓練課程，學習 C / C++ 基礎。</li>
+              <li>參與醫學工程、中醫藥、機器人與醫學相關營隊，補強智慧醫療與自然科學素養。</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="time">Completed</span>
+          <div>
+            <h3>國立台中科技大學｜資訊工程</h3>
+            <p>主軸為 Web 系統、資料庫、前端作品、影像處理、教學輔助與教育科技專題.</p>
+            <ul>
+              <li>系排第三，完成 QuizMaster 智慧題庫與測驗系統，榮獲資訊流通學院專題成果展大學部第二名。</li>
+              <li>擔任線性代數與基本電學教學助理，協助課程輔導、行政支援與學生成績分析。</li>
+              <li>研究助理期間接觸 OpenCV 影像處理與辨識流程。</li>
+              <li>完成 Windows Form 成績管理系統、Android App、個人履歷網站、PTECH 部落格與電影賞析網站等作品。</li>
+              <li>參與 GDSC、英文聽講社、UI/UX 課程、PowerBI 工作坊，並修習 Ewant AI、UX、數據分析相關課程。</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="time">Since 2024</span>
+          <div>
+            <h3>國立雲林科技大學｜資訊管理系</h3>
+            <p>正取第一名入學。此階段是高強度競賽、系統開發、資安治理、商業分析與 AIoT 應用整合的核心階段。</p>
+            <ul>
+              <li>畢業專題：M-Police 基於深度學習之贓車追查系統，擔任組長，整合 AI 影像辨識、Web MIS、資料庫、Linux / Windows Server 與資安控管。</li>
+              <li>三實競賽：物感靈草 AIoT 智慧中藥倉儲，擔任組長，入圍決賽，整合 Arduino、DHT11、PHP、MySQL 與 Groq AI。</li>
+              <li>慈濟大學經營管理專題競賽：一定藥更好 AIoT 智慧藥倉，擔任組長，延伸藥品保存、環境監控與智慧倉儲管理情境。</li>
+              <li>2026 經濟部智慧創新應用大賞：藥你更健康 LineBOT 醫藥禁忌查詢系統，擔任組長，完成實作。</li>
+              <li>2025 經濟部智慧創新應用大賞：職安盾求職防詐 LineBOT，參與提案與語意分析情境設計。</li>
+              <li>六都城市創新大賞：享食綠洲 ESG 集點制度與永續治理提案，擔任組長，規劃低碳行為登錄、紅利與後台審核。</li>
+              <li>完成 JavaFX 活動管理系統、Let’s Ledger、SmartHRM、Smart ESG、Smart Accounting、FoodCycle、Lawmate、GradeMIS、Campus Event MIS、IT Support MIS 等資訊系統開發與佈署作品。</li>
+              <li>執行 PxPay 易用性調查與 UI/UX 設計，參與使用者經驗設計工作坊、PowerBI 工作坊與管理學反毒微電影製作。</li>
+              <li>完成醫療院所導入 ISO/IEC 27001 ISMS 適配性分析與治理策略研究，擔任組長。</li>
+              <li>參與中華電信創新應用大賞</li>
+              <li>與日本外籍生開發智慧灌溉IOT資訊系統</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="time">Since 2022</span>
+          <div>
+            <h3>蝦皮電商 Andy優選｜平台負責人</h3>
+            <p>負責平台營運與數位商務流程，補足技術人常缺少的商業場景、使用者行為與營運管理理解。</p>
+            <ul>
+              <li>商品上架、訂單處理、客服流程、商品定位、定價與曝光策略。</li>
+              <li>營收超過 15 萬，累積電商營運、CRM、SEO、轉換率與使用者行為觀察經驗。</li>
+              <li>將營運經驗連結到資訊系統、資料庫、管理流程與商業分析設計。</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section-shell" id="certs">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Certifications</p>
+        <h2>專業證照</h2>
+        <p></p>
+      </div>
+      <div class="cert-grid">
+        <article class="cert-card reveal"><h3>Cybersecurity / Governance</h3><ul><li>SGS ISO/IEC 27001:2022 Lead Auditor</li><li>Cisco CCST CyberSecurity</li><li>ITS CyberSecurity</li><li>ITS Network Security</li><li>Fortinet FCF</li></ul></article>
+        <article class="cert-card reveal"><h3>Networking / Programming</h3><ul><li>Cisco CCST Networking</li><li>ITS Networking</li><li>ITS Python</li></ul></article>
+        <article class="cert-card reveal"><h3>IBM SkillBuild</h3><ul><li>IBM Cybersecurity</li><li>IBM Cloud Computing</li><li>IBM Artificial Intelligence</li><li>IBM Data Fundamentals</li><li>IBM IT Support</li><li>IBM Web Development</li><li>IBM Project Management</li></ul></article>
+        <article class="cert-card reveal"><h3>Cloud / English</h3><ul><li>TOEIC 600</li><li>GEPT 初級</li><li>GEPT 中級初試</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section-shell contact" id="contact">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Contact</p>
+        <h3>希望投入 IT Infra、系統管理、網路與資安相關職務。</h3>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:nutccsieandy@gmail.com">nutccsieandy@gmail.com</a>
+          <a class="btn secondary" href="https://github.com/nutccsieandy" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>© 2026 Andy Chen.</p></footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
